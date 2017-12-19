@@ -2,17 +2,18 @@
 ATM Exceptions
 """
 
+
 class AttemptsOver(Exception):
-    pass
+    message = "Attempts are over!!!"
 
 
 class AtmBalance(Exception):
-    pass
+    message = "Atm balance is no enough!!!"
 
 
 class EnterPin(Exception):
-    pass
+    message = "Enter pin first!!!"
 
 
 class IncorrectPin(Exception):
-    pass
+    message = "Incorrect Pin!!!"
